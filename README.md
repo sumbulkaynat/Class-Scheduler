@@ -1,5 +1,18 @@
 # Scheduler Web Application
 
+
+## Backend
+
+### Project setup
+```
+npm install
+```
+
+### Run
+```
+node server.js
+```
+
 ## Frontend
 ### Set port
 .env
@@ -28,15 +41,4 @@ yarn start
 
 Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-## Backend
-
-### Project setup
-```
-npm install
-```
-
-### Run
-```
-node server.js
-```
 
