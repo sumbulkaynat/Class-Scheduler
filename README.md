@@ -1,5 +1,5 @@
 # Class Scheduler Web Application
-## Node.js | React | MongoDB | JWT Auth
+### Video demo : Protype (Click the banner to view)
 
 [![Youtube video demo](https://img.youtube.com/vi/fsUws3citjA/0.jpg)](https://www.youtube.com/watch?v=fsUws3citjA)
 
@@ -12,11 +12,11 @@ The scheduler application consists of two major parts :
 
 
 
-## Installation
+# Installation
 
 Scheduler requires [Node.js](https://nodejs.org/) v14+ to run.
 
-#### Inside Frontend folder
+### Inside Frontend folder
 ##### Set port
 .env
 ```
@@ -45,7 +45,7 @@ yarn start
 
 Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-#### Inside Backend folder
+### Inside Backend folder
 
 ##### Project setup
 ```
