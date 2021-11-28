@@ -72,3 +72,14 @@ Scheduler uses a number of tech stack to work properly:
 
 When a new user signs up, he/she is registered as a student in the database. Faculty registration can be done either through MongoDB shell or via Postman. 
 
+> for creating a faculty account open Postman. Select method as POST and enter the URL "http://localhost:8080/api/auth/signup" . In the body of the request, paste the below JSON object and send the request.
+```
+{
+    "username" : "faculty",
+    "email" : "faculty@gmail.com",
+    "password" : "faculty",
+    "roles" : ["moderator"]
+}
+```
+![postman-faculty-signup](postman-faculty-signup.png)
+
