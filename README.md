@@ -11,6 +11,16 @@ The scheduler application consists of two major parts :
 -- For connecting backend to the database make sure to run MongoDB as a service in your local machine.
 
 
+## Tech
+
+Scheduler uses a number of tech stack to work properly:
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Bootstrap](https://getbootstrap.com/) - great UI boilerplate for modern web apps
+- [node.js](node.js) - evented I/O for the backend
+- [Express](http://expressjs.com) - fast node.js network app framework
+- [JWT Auth](https://jwt.io/) - creating data with optional signature and/or optional encryption
+- [MongoDB](https://www.mongodb.com/) - document-oriented, NoSQL database program
 
 # Installation
 
@@ -57,17 +67,6 @@ npm install
 node server.js
 ```
 
-## Tech
-
-Scheduler uses a number of tech stack to work properly:
-
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [Bootstrap](https://getbootstrap.com/) - great UI boilerplate for modern web apps
-- [node.js](node.js) - evented I/O for the backend
-- [Express](http://expressjs.com) - fast node.js network app framework
-- [JWT Auth](https://jwt.io/) - creating data with optional signature and/or optional encryption
-- [MongoDB](https://www.mongodb.com/) - document-oriented, NoSQL database program
-
 ## Database setup
 
 When a new user signs up, he/she is registered as a student in the database. Faculty registration can be done either through MongoDB shell or via Postman. 
@@ -83,8 +82,9 @@ When a new user signs up, he/she is registered as a student in the database. Fac
 ```
 ![postman-faculty-signup](postman-faculty-signup.png)
 
->  Now in the browser window, we can login as a faculty by entering username and password that we just created. We need to add some class first, so when the students login they can view the available classes. 
+> Now in the browser window, we can login as a faculty by entering username and password that we just created. We need to add some class first, so when the students login they can view the available classes. 
 
 ![faculty-login](faculty-login.png)
 
 > students can register normally from the UI. 
+
