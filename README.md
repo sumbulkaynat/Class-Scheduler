@@ -83,3 +83,8 @@ When a new user signs up, he/she is registered as a student in the database. Fac
 ```
 ![postman-faculty-signup](postman-faculty-signup.png)
 
+> Now in the browser window, we can login as a faculty by entering username and password that we just created. 
+
+![faculty-login](faculty-login.png)
+
+> students can register normally from the UI. 
