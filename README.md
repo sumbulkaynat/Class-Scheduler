@@ -21,6 +21,7 @@ Scheduler uses a number of tech stack to work properly:
 - [Express](http://expressjs.com) - fast node.js network app framework
 - [JWT Auth](https://jwt.io/) - creating data with optional signature and/or optional encryption
 - [MongoDB](https://www.mongodb.com/) - document-oriented, NoSQL database program
+- [Postman](https://www.postman.com/) - Postman is an API platform for building and using APIs.
 
 # Installation
 
